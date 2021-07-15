@@ -17,6 +17,7 @@ export const Home = () => {
         { name: "Equipment Owners" },
         { name: "Register Equipment" },
         { name: "Written Off" },
+        { name: "Check Out" },
     ]
     const renderMenus = (item, index) => {
         return (
@@ -53,7 +54,7 @@ export const Home = () => {
                     <Image centered src={mylogo} />
                 </div>
             </Content>
-            <Footer>Footer</Footer>
+            <Footer >Copyrite @MWT 2021</Footer>
         </Layout>
 
     )
